@@ -1,0 +1,52 @@
+/* shared styles */
+
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    padding: 20px 43px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* heading styles  */
+
+nav {
+    display: flex;
+    gap: 90px;
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.header-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 55px;
+    font-style: normal;
+    margin-bottom: 32px;
+
+}
+
+.header-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    margin-top: 0;
+    margin-bottom: 32px;
+
+}
+
+.header-item-text{
+    padding: 180px 0 0 200px;
+}
+
+.header-image{
+    padding: 50px 150px 0 0;
+}
