@@ -356,7 +356,10 @@ main a {
 .place-image{
     margin-bottom: 12px;
 }
-
+.place-description{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
 
 /* Footer Section  */
 
