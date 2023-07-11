@@ -185,7 +185,7 @@ main a {
 
 }
 
-#letter-design{
+#letter-design {
     color: #E55473;
 }
 
@@ -196,17 +196,118 @@ main a {
     font-size: 16px;
     font-style: normal;
     margin-bottom: 20px;
-   
+
 }
 
-#offer-details{
+#offer-details {
     text-align: center;
-    padding: 100px 120px 80px 300px ;
+    padding: 100px 120px 80px 300px;
 }
 
-.offer-image{
-    padding: 100px 280px 80px 0px ;
+.offer-image {
+    padding: 100px 280px 80px 0px;
 }
 
 
 /* Instagram Section  */
+
+.insta-p {
+    margin-top: 15px;
+    padding: 0 500px;
+    margin-bottom: 0;
+}
+
+.rec {
+    width: 342px;
+    height: 396px;
+}
+
+.rec1 {
+    background-image: url('../Flower Asset/Flower 01.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+
+}
+
+.rec2 {
+    background-image: url('../Flower Asset/Rectangle 4.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+
+}
+
+.rec3 {
+    background-image: url('../Flower Asset/Rectangle 5.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+
+}
+
+.rec4 {
+    background-image: url('../Flower Asset/Rectangle 6.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+
+}
+
+.rec-container {
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 0 250px;
+}
+
+/* Latest deal section  */
+
+
+.deal-container {
+    border-radius: 8px;
+    text-align: center;
+    background-image: url('../Flower Asset/Rectangle 9.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0 250px 0;
+}
+
+.title-secondary {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    padding: 80px 300px 0;
+}
+
+.secondary-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 20px 100px 40px;
+}
+
+#email {
+    padding: 23px 300px 23px 20px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+}
+
+#email-box{
+padding-bottom: 50px;
+    
+}
+
+/* Footer Section  */
+
+.footer-container{
+    text-align: center;
+}
