@@ -16,6 +16,16 @@
     padding: 0;
 }
 
+.title-primary {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    margin-top: 120px;
+
+}
+
 /* heading styles  */
 
 nav {
@@ -43,10 +53,108 @@ nav {
 
 }
 
-.header-item-text{
+.header-item-text {
     padding: 180px 0 0 200px;
 }
 
-.header-image{
+.header-image {
     padding: 50px 150px 0 0;
+}
+
+/* main-section  */
+
+/* banner section  */
+
+#banner-title {
+    margin-bottom: 0;
+}
+
+.banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 24px;
+    padding: 0 475px 0 475px;
+    margin-bottom: 48px;
+}
+
+.rect {
+    width: 300px;
+    height: 400px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    margin-bottom: 18px;
+}
+
+.rect1 {
+    background: rgba(167, 33, 98, 0.15);
+    background-image: url('../Flower Asset/pngwing 6.png');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 70%;
+}
+
+.rect2 {
+    background: rgba(5, 151, 160, 0.15);
+    background-image: url('../Flower Asset/pngwing 5.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+}
+
+.rect3 {
+    background: rgba(71, 125, 17, 0.15);
+    background-image: url('../Flower Asset/pngwing 7.png');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 70%;
+}
+
+.bonus-section {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 80px;
+}
+
+main a {
+    color: #272727;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    text-decoration-line: underline;
+    font-weight: 700;
+    padding-left: 90px;
+}
+
+/* mid section  */
+
+.middle-section-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 40px 80px;
+    margin: 0 300px 80px;
+}
+
+.mid-text{
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+
+}
+
+.mid-image{
+   margin-left: 70px;
+}
+
+.mid-image2{
+    margin-left: 18px;
 }
