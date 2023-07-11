@@ -91,6 +91,7 @@ nav {
     flex-shrink: 0;
     border-radius: 300px 300px 0px 0px;
     margin-bottom: 18px;
+    box-shadow: 2px 4px 6px gray ;
 }
 
 .rect1 {
@@ -144,6 +145,7 @@ main a {
     background: rgba(39, 39, 39, 0.05);
     padding: 40px 80px;
     margin: 0 300px 80px;
+    
 }
 
 .mid-text {
@@ -306,6 +308,55 @@ main a {
     padding-bottom: 50px;
 
 }
+
+/* Extra Bonus Section */
+
+.outlet-init{
+    color: white;
+    text-align: center;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    margin-top: 80px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+.outlet-section{
+    background-color: black;
+}
+.outlet-container{
+    display: flex;
+    justify-content: center;
+    padding: 0 100px 70px;
+    
+}
+
+.place-image{
+    width: 150px;
+    height: 80px;
+}
+
+.outlet-nearby{
+    color: white;
+    text-align: center;
+    margin: 15px 100px 10px 100px;
+    border: 2px solid black;
+    box-shadow: 2px 4px 8px gray;
+    border: none;
+    padding: 15px;
+}
+
+.place{
+    margin-bottom: 12px;
+    font-family: Lato;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.place-image{
+    margin-bottom: 12px;
+}
+
 
 /* Footer Section  */
 
