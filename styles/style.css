@@ -142,7 +142,7 @@ main a {
     margin: 0 300px 80px;
 }
 
-.mid-text{
+.mid-text {
     color: rgba(39, 39, 39, 0.80);
     text-align: center;
     font-family: Lato;
@@ -151,10 +151,58 @@ main a {
 
 }
 
-.mid-image{
-   margin-left: 70px;
+.mid-image {
+    margin-left: 70px;
 }
 
-.mid-image2{
+.mid-image2 {
     margin-left: 18px;
 }
+
+/* Offer Section  */
+
+.hot-deal-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.offer-image {
+
+    height: 70%;
+}
+
+.offer-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    line-height: normal;
+    margin-bottom: 18px;
+
+}
+
+.offer-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    margin-bottom: 20px;
+   
+}
+
+#offer-details{
+    text-align: center;
+    padding: 100px 120px 80px 300px ;
+}
+
+.offer-image{
+    padding: 100px 280px 80px 0px ;
+}
+
+
+/* Instagram Section  */
